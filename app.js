@@ -13,17 +13,15 @@ window.addEventListener("load", function(e){
     console.log("carga")
 })
 
-let canvas = document.getElementById('canvas3d')
-/* let stateCheck = setInterval( ()=>{
+let stateCheck = setInterval( ()=>{
 
-
-    if (canvas === true) {
-          clearInterval(stateCheck);
-          console.log('Funciona')
+    let canvas = document.getElementById('canvas3d')
+    if (window.onload) {
+        console.log(canvas)
     }
     else{
         console.log("no working")
     }
     console.log(canvas)
 }, 100);
- */
+ 
