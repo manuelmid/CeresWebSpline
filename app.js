@@ -15,9 +15,10 @@ window.addEventListener("load", function(e){
 
 let stateCheck = setInterval( ()=>{
 
+    let nm = 0;
     let canvas = document.getElementById('canvas3d')
-    if (window.onload) {
-        console.log(canvas)
+    if (nm) {
+        nm++
     }
     else{
         console.log("no working")
