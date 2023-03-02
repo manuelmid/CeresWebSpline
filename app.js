@@ -24,7 +24,7 @@ let stateCheck = setInterval( ()=>{
         console.log("no working")
     }
     console.log(canvas)
-}, 100);
+}, /* 100 */);
  
 
 function dd(){
