@@ -20,11 +20,11 @@ let stateCheck = setInterval( ()=>{
     if (nm) {
         nm++
     }
-    else{
+    /* else{
         console.log("no working")
-    }
-    console.log(canvas)
-}, /* 100 */);
+    } */
+    //console.log(canvas)
+}, 100);
  
 
 function dd(){
