@@ -1,4 +1,5 @@
 document.addEventListener("click", habla)
+document.body.addEventListener("click", dd)
 
 function habla(e){
     //alert("asd")
@@ -28,5 +29,8 @@ let stateCheck = setInterval( ()=>{
  
 
 function dd(){
-    
+    document.body.style.overflow = "hidde";
+    console.log(screen)
+
+    console.log(screen.width)
 }
