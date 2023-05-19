@@ -34,3 +34,5 @@ function dd(){
 
     console.log(screen.width)
 }
+
+alert(window.screen)
