@@ -32,7 +32,7 @@ function dd(){
     document.body.style.overflow = "hidde";
     console.log(screen)
 
-    console.log(screen.width)
+    console.log()
 }
 
-alert(window.screen)
+alert("Zoom into the pixel on the screen to enter my world")
